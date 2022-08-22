@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+h1{
+  font-size: 1.5rem;
+  margin: .5rem;
+}
+h2 {
+  font-size: .9rem;
+  margin: .5rem;
+}
+h3 {
+  font-size: .7rem;
+  margin: .5rem;
+}
+a {
+
+}
+.columnholder {
+
+}
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: right;
+  margin: 1rem;
+}
+.row.center {
+  align-items: center;
+}
+.column1 {
+  flex: 1;
+  align-items: right;
+  margin: 1rem;
+
+}
+.column2 {
+  flex: 2;
+  align-items: right;
+  margin: 1rem;
+}
+.block {
+  padding: 1rem;
+  margin: .5rem;
+  background-color: bisque;
+  border-radius: .5rem;
+}
+.row.center {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1rem;
+}
+.div.row {
+  margin: 1rem;
+}
+.card {
+  max-width: 800px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 1fr;
+  grid-column-gap: 5px;
+  grid-row-gap: 5px;
+}
